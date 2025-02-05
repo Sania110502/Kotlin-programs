@@ -1,0 +1,21 @@
+package com.tecmania.kotlinprogram
+
+fun main(args:Array<String>) {
+    println("Please enter a day number of week :")
+
+    var dayNumber: Int = readLine()!!.toInt()
+    var day:String
+
+    when (dayNumber){
+        1-> day = "Monday"
+        2-> day = "Tueday"
+        3-> day = "Wednesday"
+        4-> day = "Thursday"
+        5-> day = "Friday"
+        6-> day = "Saturday"
+        7-> day = "Sunday"
+        else -> day = "Invalid day "
+    }
+    println("Day is $day")
+
+}
