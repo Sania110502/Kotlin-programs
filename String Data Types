@@ -1,0 +1,22 @@
+package com.tecmania.kotlinprogram
+
+fun main(args:Array<String>){
+    /*
+    var a:String="Hello kotlin"
+    var b:String="Languages"
+    var age : Int = 25
+    println("Your age is =" + age) */
+
+    var x:String = "Kotlin"
+    //var i:Int = x.length
+  //  println("lrngth of kotlin= "+i)
+   // var b:Boolean=x.equals("java")
+    //println(b)
+  //  println(x.isEmpty())
+     // println(x.plus ("language"))
+   // println(x.lowercase())
+    // println("*******************")
+    // println(x.uppercase())
+    var t :String =" Android "
+    println(x + t)
+    println(x + t.trim())
