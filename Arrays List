@@ -1,0 +1,21 @@
+fun main(args: Array<String>) {
+    var age = ArrayList<Int>()
+
+    age.add(10)
+    age.add(1,15)
+    age.add(20)
+
+    println("First elemnt of ArrayList ="+age[0])
+    println("Second elemnt of ArrayList ="+age.get(1))
+    println("Third elemnt of ArrayList = ${age[2]}")
+
+
+    age.remove(15)
+    println(age.size)
+    println("First element of ArrayList ="+ age[0])
+    println("Second elemnt of ArrayList ="+age.get(1))
+
+
+
+
+}
